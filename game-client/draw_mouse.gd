@@ -1,4 +1,4 @@
-extends Sprite
+extends Sprite2D
 
 
 # Declare member variables here. Examples:
@@ -21,7 +21,7 @@ func _input(event):
 
 
 func _draw():
-	draw_line(Vector2.ZERO, mouse_position-global_position, Color.red)
+	draw_line(Vector2.ZERO, mouse_position-global_position, Color.RED)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):

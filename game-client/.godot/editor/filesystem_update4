@@ -1,0 +1,5 @@
+res://default_env.tres
+res://Main.tscn
+res://MainGUI.tres
+res://DrawingBox.gd
+res://Main.gd
